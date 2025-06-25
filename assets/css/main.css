@@ -480,7 +480,7 @@ body {
 
 /* Medium devices*/
 @media screen and (min-width: 560px) {
-  .service__wrapper {
+  .values__wrapper {
     grid-template-columns: repeat(2, 250px);
     justify-content: center;
   }
@@ -551,7 +551,7 @@ body {
   }
 
   .qualification__content,
-  .service__wrapper,
+  .values__wrapper,
   .project__wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
