@@ -554,6 +554,27 @@ body {
 .recommendations__wrapper .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
+/* Contact
+--------------------------------------------------------------*/
+.contact__wrapper {
+  border-top: 1px solid var(--color-border);
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: var(--fs-xxl);
+  margin-bottom: 2rem;
+}
+
+.contact__content {
+  max-width: 45rem;
+  margin: auto;
+}
+
+.contact__description {
+  margin-bottom: 2rem;
+}
 
 
 

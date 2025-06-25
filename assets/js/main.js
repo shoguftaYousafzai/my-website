@@ -30,7 +30,7 @@ function changeIcon() {
 
 // Recommendations Slide
 
-const testimonialSlide = new Swiper(".testimonial__wrapper", {
+const recommendationsSlide = new Swiper(".recommendations__wrapper", {
   loop: true,
   spaceBetween: 30,
   centeredSlides: true,
@@ -77,7 +77,7 @@ sr.reveal(".hero__content, .about__content");
 sr.reveal(".hero__img", { origin: "top" });
 
 sr.reveal(
-  ".hero__info-wrapper, .skills__title, .skills__content, .qualification__name, .qualification__item, .values__card, .project__content, .testimonial__wrapper, .footer__content",
+  ".hero__info-wrapper, .skills__title, .skills__content, .qualification__name, .qualification__item, .values__card, .project__content, .recommendations__wrapper, .footer__content",
   {
     delay: 500,
     interval: 100,
